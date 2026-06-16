@@ -151,3 +151,115 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+
+
+
+.archive-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.page-nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.page-nav a {
+    text-decoration: none;
+    color: var(--gold-dark);
+    font-weight: bold;
+}
+
+.hero-profile {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.portrait-image {
+    width: 340px;
+    max-width: 100%;
+
+    border-radius: 12px;
+
+    margin-bottom: 2rem;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+.hero-profile h1 {
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.hero-profile h2 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.hero-intro {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.archive-section {
+    margin: 4rem 0;
+}
+
+.archive-section h3 {
+    font-family: "Cinzel", serif;
+
+    margin-bottom: 1rem;
+
+    padding-bottom: .5rem;
+
+    border-bottom: 2px solid #d9c9a5;
+}
+
+.archive-section h4 {
+    margin-top: 1.5rem;
+    margin-bottom: .75rem;
+}
+
+.archive-section ul {
+    padding-left: 1.5rem;
+}
+
+.archive-section li {
+    margin-bottom: .75rem;
+}
+
+.language-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.language-badges span {
+    background: rgba(176,141,87,.15);
+
+    padding: .5rem .9rem;
+
+    border-radius: 999px;
+
+    border: 1px solid rgba(176,141,87,.25);
+}
+
+.side-note {
+    margin-top: 1.5rem;
+
+    padding: 1rem;
+
+    border-left: 4px solid var(--gold);
+
+    background: rgba(176,141,87,.08);
+}
