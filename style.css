@@ -449,3 +449,46 @@ figcaption {
     border-bottom: 1px solid rgba(0,0,0,.08);
     margin-bottom: 1rem;
 }
+
+
+
+
+
+
+/* ---------- Royal Insignia ---------- */
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.butterfly-nav {
+    height: 44px;
+    width: auto;
+    opacity: 0.9;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.butterfly-nav:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.butterfly-footer {
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.royal-insignia {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.royal-insignia img {
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    opacity: 0.95;
+}
