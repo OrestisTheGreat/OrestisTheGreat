@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orestisism | Fourth Hellenic Civilization</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="page-nav">
+        <a href="index.html">Home</a>
+        <a href="orestis.html">Orestis II</a>
+        <a href="campaigns.html">Campaigns</a>
+        <a href="orestisism.html">Orestisism</a>
+    </nav>
+</header>
+
+
+<main class="archive-page">
+
+    <!-- TITLE -->
+    <section class="hero-profile">
+
+        <h1>Orestisism</h1>
+        <h2>The Fourth Hellenic Civilization</h2>
+
+        <p class="hero-intro">
+            Orestisism is a meritocratic, duty-centered, and state-oriented philosophy
+            that seeks social order through competent leadership, strategic action, and civilizational continuity.
+            It is grounded in the belief that exceptional individuals can shape history when they unite competence,
+            power, and legitimacy in service of the common good.
+        </p>
+
+        <p class="hero-intro">
+            It rejects both the worship of popularity and the cynicism of pure power politics,
+            aspiring instead toward a society governed by responsibility, excellence, and long-term stewardship.
+            Drawing from Plato, Aristotle, Confucius, the Stoics, and classical state-building traditions,
+            Orestisism views civilization not as an accident, but as a project maintained across generations.
+        </p>
+
+    </section>
+
+
+    <!-- CIVILIZATIONS -->
+    <section class="archive-section">
+
+        <h3>The Four Hellenic Civilizations</h3>
+
+        <p>
+            According to the historical framework of Orestisism, Hellenic history may be understood as
+            four successive civilizational projects:
+        </p>
+
+        <table style="width:100%; margin-top:1.5rem; border-collapse: collapse;">
+            <tr>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid #d9c9a5;">Civilization</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid #d9c9a5;">Era</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid #d9c9a5;">Defining Principle</th>
+            </tr>
+
+            <tr>
+                <td style="padding:10px;">First Hellenic Civilization</td>
+                <td style="padding:10px;">Classical Antiquity</td>
+                <td style="padding:10px;">Birth of philosophy, science, and democracy</td>
+            </tr>
+
+            <tr>
+                <td style="padding:10px;">Second Hellenic Civilization</td>
+                <td style="padding:10px;">Byzantium</td>
+                <td style="padding:10px;">Synthesis of Hellenic culture, Roman statecraft, Orthodox Christianity</td>
+            </tr>
+
+            <tr>
+                <td style="padding:10px;">Third Hellenic Civilization</td>
+                <td style="padding:10px;">Modern Greek State (1821–present)</td>
+                <td style="padding:10px;">Incomplete state-building, instability, factionalism, modernization struggles</td>
+            </tr>
+
+            <tr>
+                <td style="padding:10px;"><strong>Fourth Hellenic Civilization</strong></td>
+                <td style="padding:10px;"><strong>The future</strong></td>
+                <td style="padding:10px;"><strong>Meritocratic, sovereign, technologically advanced civilizational renewal</strong></td>
+            </tr>
+        </table>
+
+        <p style="margin-top:2rem;">
+            The purpose of Orestisism is not to recreate the past, but to complete the unfinished work
+            of the Third Hellenic Civilization and lay the foundations of the Fourth.
+        </p>
+
+    </section>
+
+
+    <!-- BOOK I -->
+    <section class="archive-section">
+
+        <h3>Book I — On Government</h3>
+
+        <h4>I. Competence Before Popularity</h4>
+
+        <p>
+            Complex societies demand capable leadership. The prosperity of a nation depends not on slogans,
+            popularity contests, or fleeting passions, but on the character and competence of those entrusted
+            with responsibility.
+        </p>
+
+        <p>
+            Orestisism draws inspiration from the Platonic philosopher-king and the Confucian scholar-official.
+            Wealth, inheritance, and popularity are secondary; competence is the first qualification for leadership.
+        </p>
+
+        <blockquote>
+            Decisions that affect millions must be made by those who have demonstrated judgment, knowledge,
+            and the ability to deliver results.
+        </blockquote>
+
+
+        <h4>II. Order as the Highest Political Good</h4>
+
+        <p>
+            Order is the foundation of liberty. Without functioning institutions, predictable laws, and civic trust,
+            freedom becomes unstable and short-lived.
+        </p>
+
+        <p>
+            Orestisism regards order as the highest political good. It enables citizens to plan, build, create,
+            and pursue long-term goals without fear of systemic breakdown.
+        </p>
+
+        <blockquote>
+            Social order is not an obstacle to liberty; it is its prerequisite.
+        </blockquote>
+
+
+        <h4>III. Leadership as Service</h4>
+
+        <p>
+            Authority is not privilege but responsibility. Those entrusted with power bear greater obligations,
+            not greater rewards.
+        </p>
+
+        <p>
+            The ideal leader is a steward: disciplined, self-controlled, and committed to the long-term welfare of the state.
+        </p>
+
+        <blockquote>
+            The higher the office, the greater the duty to serve.
+        </blockquote>
+
+
+        <h4>IV. Legitimacy Through Results</h4>
+
+        <p>
+            Political legitimacy is not derived from rhetoric, ideology, or popularity, but from outcomes.
+        </p>
+
+        <p>
+            Institutions must be evaluated by performance, policies by effectiveness, and leaders by results achieved.
+        </p>
+
+        <blockquote>
+            The ultimate source of political legitimacy is not rhetoric, but results.
+        </blockquote>
+
+    </section>
+
+
+    <!-- BOOK II -->
+    <section class="archive-section">
+
+        <h3>Book II — On Citizenship and Duty</h3>
+
+        <h4>V. Duty Before Entitlement</h4>
+
+        <p>
+            Civilizations endure when their members understand responsibility as fundamental to civic life.
+        </p>
+
+        <p>
+            Rights and freedoms are sustained only when balanced by obligations toward the community.
+        </p>
+
+        <blockquote>
+            Citizenship is not merely a collection of rights, but a vocation.
+        </blockquote>
+
+
+        <h4>VI. Strategic Thinking and Long-Term Vision</h4>
+
+        <p>
+            Political systems must be designed with long-term consequences in mind.
+            Short-term incentives often undermine future stability.
+        </p>
+
+        <p>
+            Effective leadership builds institutions that outlast electoral cycles and immediate pressures.
+        </p>
+
+        <blockquote>
+            Politics is a game of chess played across generations.
+        </blockquote>
+
+
+        <h4>VII. Rejection of Utopianism</h4>
+
+        <p>
+            Institutions must be designed for real human behavior, not idealized assumptions.
+        </p>
+
+        <p>
+            Orestisism assumes individuals are rational, self-interested agents whose motivations must be channeled,
+            not denied.
+        </p>
+
+        <blockquote>
+            The task of institutions is not to perfect humanity, but to channel human nature toward constructive ends.
+        </blockquote>
+
+    </section>
+
+
+    <!-- BOOK III -->
+    <section class="archive-section">
+
+        <h3>Book III — On Nation and Civilization</h3>
+
+        <h4>VIII. National Continuity</h4>
+
+        <p>
+            A nation is a historical community linking past, present, and future generations.
+        </p>
+
+        <p>
+            Orestisism regards national continuity as a core responsibility of the state.
+        </p>
+
+        <blockquote>
+            A nation is a partnership between the dead, the living, and those yet to be born.
+        </blockquote>
+
+
+        <h4>IX. Sovereignty and Self-Reliance</h4>
+
+        <p>
+            Sovereignty is the capacity of a nation to determine its own future.
+        </p>
+
+        <p>
+            While international cooperation is valuable, dependence that undermines autonomy is rejected.
+        </p>
+
+        <blockquote>
+            Only sovereign nations can cooperate as equals.
+        </blockquote>
+
+
+        <h4>X. Culture, Symbols, and Shared Identity</h4>
+
+        <p>
+            Civilizations are sustained by shared narratives, symbols, and collective memory.
+        </p>
+
+        <p>
+            Without cultural cohesion, political and economic structures lose long-term stability.
+        </p>
+
+        <blockquote>
+            A society that loses its story risks losing itself.
+        </blockquote>
+
+
+        <h4>XI. The Stewardship State</h4>
+
+        <p>
+            The state is not merely an administrative mechanism, but a guardian of civilizational continuity.
+        </p>
+
+        <p>
+            It exists to preserve the achievements of the past, secure the present, and prepare the future.
+        </p>
+
+        <blockquote>
+            The state is the steward of civilization.
+        </blockquote>
+
+    </section>
+
+
+    <!-- GENEALOGY -->
+    <section class="archive-section">
+
+        <h3>The Intellectual Genealogy of Orestisism</h3>
+
+        <ul>
+            <li><strong>Plato</strong> — philosopher-king and ideal governance</li>
+            <li><strong>Aristotle</strong> — politics as pursuit of the common good</li>
+            <li><strong>Confucius</strong> — meritocratic duty and administrative ethics</li>
+            <li><strong>Marcus Aurelius</strong> — Stoic discipline and service</li>
+            <li><strong>Machiavelli</strong> — realism and statecraft</li>
+            <li><strong>Hobbes</strong> — sovereignty and order as necessity</li>
+        </ul>
+
+    </section>
+
+
+    <!-- STATUS -->
+    <section class="archive-section">
+
+        <h3>Status of the Doctrine</h3>
+
+        <p>
+            The present text constitutes the First Authorized Edition of the Principles of Orestisism,
+            as approved by the Royal Chancellery.
+        </p>
+
+        <p>
+            Court scholars reserve the right to issue revised editions should history provide additional evidence,
+            new circumstances arise, or reality stubbornly refuse to cooperate.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p><strong>Official Website of the Royal Household of Orestis II</strong></p>
+    <p>
+        Maintained by the Court Historians and the Royal Chancellery.
+    </p>
+</footer>
+
+</body>
+</html>
