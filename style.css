@@ -454,54 +454,42 @@ figcaption {
 
 
 
-
-/* ---------- Royal Insignia ---------- */
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-}
+/* ===== Royal Butterfly ===== */
 
 .butterfly-nav {
-    height: 44px;
-    width: auto;
-    opacity: 0.9;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.butterfly-nav:hover {
-    transform: scale(1.08);
-    opacity: 1;
+    width: 42px;
+    height: auto;
+    display: block;
 }
 
 .butterfly-footer {
     width: 60px;
     height: auto;
-    margin-bottom: 1rem;
+    display: block;
+    margin: 0 auto 1rem auto;
     opacity: 0.9;
 }
 
-.royal-insignia {
-    text-align: center;
-    margin: 3rem 0 2rem 0;
-}
-
-.royal-insignia img {
-    max-width: 260px;
-    width: 100%;
-    height: auto;
-    opacity: 0.95;
-}
-
-
-
-/* Large insignia for doctrine / legitimacy pages */
-
+/* Large ceremonial insignia */
 .insignia-large {
     display: block;
-    width: 180px;
-    max-width: 45%;
-    margin: 0 auto 1.5rem auto;
+    width: 140px;          /* adjust between 100-160px */
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto 2rem auto;
+    object-fit: contain;
     opacity: 0.95;
-    filter: drop-shadow(0 6px 18px rgba(0,0,0,.12));
+}
+
+/* Prevent any image from breaking the layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.insignia-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
 }
