@@ -471,15 +471,19 @@ figcaption {
 }
 
 /* Large ceremonial insignia */
+
 .insignia-large {
     display: block;
-    width: 140px;          /* adjust between 100-160px */
-    max-width: 30%;
+    width: 280px;
+    max-width: 50%;
     height: auto;
     margin: 0 auto 2rem auto;
     object-fit: contain;
     opacity: 0.95;
 }
+
+
+
 
 /* Prevent any image from breaking the layout */
 img {
