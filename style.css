@@ -200,6 +200,30 @@ footer {
     box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
+
+
+.archive-image {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+
+.archive-image-small {
+    width: 100%;
+    max-width: 420px;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+
+
+
+
+
 .hero-profile h1 {
     font-family: "Cinzel", serif;
     font-size: 3rem;
