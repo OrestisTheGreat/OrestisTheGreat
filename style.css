@@ -407,3 +407,45 @@ footer {
 }
     background: rgba(176,141,87,.08);
 }
+
+
+
+
+/* ---------- Documentation / Gallery ---------- */
+
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.media-gallery figure,
+.archive-section figure {
+    text-align: center;
+    max-width: 320px;
+}
+
+.archive-image-small {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+    margin-bottom: .75rem;
+}
+
+figcaption {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.main-nav {
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    margin-bottom: 1rem;
+}
