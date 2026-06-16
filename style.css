@@ -492,3 +492,16 @@ figcaption {
     height: auto;
     opacity: 0.95;
 }
+
+
+
+/* Large insignia for doctrine / legitimacy pages */
+
+.insignia-large {
+    display: block;
+    width: 180px;
+    max-width: 45%;
+    margin: 0 auto 1.5rem auto;
+    opacity: 0.95;
+    filter: drop-shadow(0 6px 18px rgba(0,0,0,.12));
+}
