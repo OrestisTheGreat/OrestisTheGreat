@@ -496,3 +496,49 @@ img {
     overflow: hidden;
     margin-bottom: 1rem;
 }
+
+
+
+
+details {
+    background: rgba(255,255,255,.45);
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(176,141,87,.25);
+}
+
+summary {
+    font-family: "Cinzel", serif;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--gold-dark);
+    font-weight: bold;
+}
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.toc-grid a {
+    text-decoration: none;
+    padding: 1rem;
+    background: rgba(176,141,87,.08);
+    border-radius: 8px;
+    color: var(--gold-dark);
+}
+
+.royal-decree {
+    background: rgba(176,141,87,.12);
+    border-left: 5px solid var(--gold);
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+
+.archive-section {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(176,141,87,.15);
+}
