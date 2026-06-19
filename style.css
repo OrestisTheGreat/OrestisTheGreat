@@ -127,11 +127,8 @@ body {
 
 .quote-section {
     max-width: 900px;
-
-    margin: 5rem auto;
-
+    margin: 2rem auto;
     padding: 0 2rem;
-
     text-align: center;
 }
 
@@ -360,13 +357,6 @@ footer {
 
 /* Hero */
 
-.hero::after {
-    content: "❦";
-    display: block;
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    color: rgba(176,141,87,.6);
-}
 
 /* Card improvements */
 
@@ -404,10 +394,8 @@ footer {
 footer {
     margin-top: 4rem;
     opacity: .95;
-}
     background: rgba(176,141,87,.08);
 }
-
 
 
 
