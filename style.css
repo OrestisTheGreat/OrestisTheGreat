@@ -579,18 +579,19 @@ summary {
 .hero::before {
     content: "";
     position: absolute;
-    top: 10%;
-    right: -5%;
-    width: 48%;
-    height: 80%;
+    top: 0;
+    right: -10%;
+    width: 55%;
+    height: 100%;
 
-    background-image: url("images/greece.jpg");
+    background-image: url("images/map.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
-    opacity: 0.18;
-    filter: contrast(1.4) sepia(0.35);
+    opacity: 0.32;
+    filter: contrast(1.6) brightness(0.95) saturate(0.8);
+
     z-index: 0;
 }
 
