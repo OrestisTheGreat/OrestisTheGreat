@@ -574,30 +574,48 @@ summary {
     position: relative;
     padding: 5rem 2rem 4rem;
     overflow: hidden;
+    background: linear-gradient(
+        to bottom,
+        rgba(246, 241, 231, 0.92),
+        rgba(236, 228, 211, 0.92)
+    );
 }
 
+/* full background map watermark */
 .hero::before {
     content: "";
     position: absolute;
-    top: 0;
-    right: -10%;
-    width: 55%;
-    height: 100%;
+    inset: 0; /* covers entire hero */
 
     background-image: url("images/map.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 
-    opacity: 0.32;
-    filter: contrast(1.6) brightness(0.95) saturate(0.8);
+    opacity: 0.12;
+    filter: grayscale(1) contrast(1.2);
 
     z-index: 0;
 }
 
+/* soft overlay to stop competition with text */
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: radial-gradient(
+        circle at center,
+        rgba(246, 241, 231, 0.7),
+        rgba(236, 228, 211, 0.95)
+    );
+
+    z-index: 1;
+}
+
+/* content always above everything */
 .hero-content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -608,7 +626,7 @@ summary {
     text-align: center;
 }
 
-/* Paragraphs left-aligned */
+/* Paragraphs clean readability */
 .hero-content p {
     text-align: left;
     max-width: 800px;
