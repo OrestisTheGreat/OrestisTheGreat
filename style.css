@@ -592,11 +592,28 @@ summary {
     background-size: cover;
     background-position: center;
 
-    opacity: 0.22; /* 🔼 increase visibility */
+    opacity: 0.28;
 
     filter: grayscale(0.6) contrast(1.15);
 
     z-index: 0;
+
+    /* 👇 KEY PART: fade center, keep edges */
+    mask-image: radial-gradient(
+        circle at center,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) 35%,
+        rgba(0,0,0,1) 75%,
+        rgba(0,0,0,1) 100%
+    );
+
+    -webkit-mask-image: radial-gradient(
+        circle at center,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) 35%,
+        rgba(0,0,0,1) 75%,
+        rgba(0,0,0,1) 100%
+    );
 }
 
 /* VERY light veil (don’t kill the map) */
