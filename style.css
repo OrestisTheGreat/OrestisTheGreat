@@ -584,16 +584,16 @@ summary {
 
     background:
         linear-gradient(
-            rgba(246,241,231,0.94),
-            rgba(236,228,211,0.95)
+            rgba(246,241,231,0.78),
+            rgba(236,228,211,0.82)
         ),
-        url("images/map.jpg");
+        url("images/ancient-greece-map.jpg");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    opacity: 0.32;
+    opacity: 0.65;
     z-index: 0;
 }
 
