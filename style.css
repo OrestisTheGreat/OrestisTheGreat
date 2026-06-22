@@ -568,9 +568,38 @@ summary {
 
 
 
-/* ===== HERO TEXT FIX (clean version) ===== */
+/* ===== HERO SECTION ===== */
+
+.hero {
+    position: relative;
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(246,241,231,0.94),
+            rgba(236,228,211,0.95)
+        ),
+        url("images/map.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.32;
+    z-index: 0;
+}
 
 .hero-content {
+    position: relative;
+    z-index: 1;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -581,18 +610,11 @@ summary {
     text-align: center;
 }
 
-
-/* force paragraph layout independently */
+/* Paragraphs left-aligned */
 .hero-content p {
     text-align: left;
     max-width: 800px;
     margin: 0 auto 1.4rem auto;
     font-size: 1.15rem;
     line-height: 1.8;
-}
-
-/* ensure container does NOT interfere */
-.hero-content {
-    max-width: 850px;
-    margin: 0 auto;
 }
