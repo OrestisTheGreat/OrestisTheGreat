@@ -574,51 +574,49 @@ summary {
     position: relative;
     padding: 5rem 2rem 4rem;
     overflow: hidden;
+
     background: linear-gradient(
         to bottom,
-        rgba(246, 241, 231, 0.92),
-        rgba(236, 228, 211, 0.92)
+        rgba(246, 241, 231, 0.85),
+        rgba(236, 228, 211, 0.85)
     );
 }
 
-/* full background map watermark */
+/* Map layer */
 .hero::before {
     content: "";
     position: absolute;
-    inset: 0; /* covers entire hero */
+    inset: 0;
 
     background-image: url("images/map.jpg");
     background-size: cover;
     background-position: center;
 
-    opacity: 0.12;
-    filter: grayscale(1) contrast(1.2);
+    opacity: 0.22; /* 🔼 increase visibility */
+
+    filter: grayscale(0.6) contrast(1.15);
 
     z-index: 0;
 }
 
-/* soft overlay to stop competition with text */
+/* VERY light veil (don’t kill the map) */
 .hero::after {
     content: "";
     position: absolute;
     inset: 0;
 
-    background: radial-gradient(
-        circle at center,
-        rgba(246, 241, 231, 0.7),
-        rgba(236, 228, 211, 0.95)
-    );
+    background: rgba(246, 241, 231, 0.35); /* 🔽 much lighter */
 
     z-index: 1;
 }
 
-/* content always above everything */
+/* content */
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 850px;
-    margin: 0 auto;
 }
+
+
 
 /* Titles centered */
 .hero-content h1,
