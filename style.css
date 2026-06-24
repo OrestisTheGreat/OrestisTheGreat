@@ -685,17 +685,16 @@ summary {
 
 
 .archive-section blockquote {
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
 
-    max-width: 760px;
-
-    text-align: center;
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     font-style: italic;
-    line-height: 1.8;
+    line-height: 1.7;
+
+    color: var(--ink);
 
     background: rgba(176,141,87,.08);
-    border-top: 1px solid rgba(176,141,87,.35);
-    border-bottom: 1px solid rgba(176,141,87,.35);
+    border-left: 5px solid var(--gold);
+    border-radius: 8px;
 }
