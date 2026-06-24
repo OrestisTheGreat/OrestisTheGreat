@@ -659,3 +659,23 @@ summary {
     border-radius: 12px;
     padding: 2rem;
 }
+
+
+
+.timeline-section {
+    margin: 4rem 0;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(176,141,87,.2);
+}
+
+.year {
+    font-family: "Cinzel", serif;
+    color: var(--gold-dark);
+    font-weight: bold;
+}
