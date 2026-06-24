@@ -679,3 +679,23 @@ summary {
     color: var(--gold-dark);
     font-weight: bold;
 }
+
+
+
+
+
+.archive-section blockquote {
+    margin: 2rem auto;
+    padding: 2rem;
+
+    max-width: 760px;
+
+    text-align: center;
+    font-size: 1.45rem;
+    font-style: italic;
+    line-height: 1.8;
+
+    background: rgba(176,141,87,.08);
+    border-top: 1px solid rgba(176,141,87,.35);
+    border-bottom: 1px solid rgba(176,141,87,.35);
+}
