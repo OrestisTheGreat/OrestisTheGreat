@@ -698,3 +698,18 @@ summary {
     border-left: 5px solid var(--gold);
     border-radius: 8px;
 }
+
+
+
+
+.spacer-sm {
+    height: 0.8rem;
+}
+
+.spacer-md {
+    height: 1.5rem;
+}
+
+.spacer-lg {
+    height: 2.2rem;
+}
