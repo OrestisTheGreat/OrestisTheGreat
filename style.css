@@ -745,7 +745,7 @@ summary {
 
 .hero-doctrine {
     max-width: 850px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem auto;
     text-align: left;
     line-height: 1.8;
 }
