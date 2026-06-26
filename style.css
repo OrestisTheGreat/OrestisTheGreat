@@ -747,6 +747,8 @@ summary {
     max-width: 850px;
     margin: 0 auto 1.5rem auto;
     text-align: left;
+}
+
 
 .genealogy-root {
     text-align: center;
@@ -797,27 +799,17 @@ summary {
 
 
 
-    
-.doctrine-page .doctrine-hero {
+    .doctrine-hero {
     max-width: 850px;
     margin: 0 auto;
 }
 
-.doctrine-page .doctrine-intro {
-    text-align: center;
+.doctrine-intro {
+    text-align: left;
     margin-bottom: 1.5rem;
 }
 
-.doctrine-page .doctrine-body {
+.doctrine-body {
     text-align: left;
     line-height: 1.8;
-}
-
-
-.doctrine-page .doctrine-hero h1,
-.doctrine-page .doctrine-hero h2,
-.doctrine-page .doctrine-hero p {
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
 }
