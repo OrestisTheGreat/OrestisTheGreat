@@ -748,62 +748,49 @@ summary {
     margin: 0 auto 1.5rem auto;
     text-align: left;
 
-.genealogy-tree {
-    margin-top: 2rem;
+.genealogy-root {
     text-align: center;
-}
-
-.tree-root {
-    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    margin: 2rem auto;
     padding: 1rem 2rem;
+    width: fit-content;
     border: 2px solid #b08d57;
     border-radius: 12px;
-    background: #f8f4ea;
-    font-family: 'Cinzel', serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 3rem;
-    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    position: relative;
 }
 
-.tree-branches {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-.tree-branch {
-    background: #faf7f0;
-    border: 1px solid #d9c9a5;
-    border-radius: 12px;
-    padding: 1.8rem;
-    text-align: left;
-    box-shadow: 0 5px 16px rgba(0,0,0,.05);
-}
-
-.tree-branch h4 {
-    margin-top: 0;
-    color: #7b5c2e;
-    font-family: 'Cinzel', serif;
-}
-
-.tree-branch ul {
-    padding-left: 1.2rem;
-    margin-bottom: 0;
-}
-
-.tree-branch li {
-    margin-bottom: 0.5rem;
-}
-
-.tree-root::after {
+.genealogy-root::after {
     content: "";
-    display: block;
+    position: absolute;
     width: 2px;
     height: 40px;
     background: #b08d57;
-    margin: 1rem auto 0;
+    left: 50%;
+    top: 100%;
 }
-    line-height: 1.8;
+
+.genealogy-row {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.genealogy-column {
+    flex: 1;
+    position: relative;
+}
+
+.genealogy-column h4 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.influence-card {
+    border: 1px solid #d9c9a5;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background: #faf7f0;
 }
