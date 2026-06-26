@@ -723,3 +723,14 @@ summary {
     border-radius: 14px;
     box-shadow: 0 12px 32px rgba(0,0,0,.18);
 }
+
+
+
+.image-caption {
+    margin-top: 0.8rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    color: #8a7358;
+    text-transform: uppercase;
+}
