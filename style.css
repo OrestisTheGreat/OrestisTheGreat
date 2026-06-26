@@ -747,5 +747,63 @@ summary {
     max-width: 850px;
     margin: 0 auto 1.5rem auto;
     text-align: left;
+
+.genealogy-tree {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.tree-root {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #b08d57;
+    border-radius: 12px;
+    background: #f8f4ea;
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.tree-branches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.tree-branch {
+    background: #faf7f0;
+    border: 1px solid #d9c9a5;
+    border-radius: 12px;
+    padding: 1.8rem;
+    text-align: left;
+    box-shadow: 0 5px 16px rgba(0,0,0,.05);
+}
+
+.tree-branch h4 {
+    margin-top: 0;
+    color: #7b5c2e;
+    font-family: 'Cinzel', serif;
+}
+
+.tree-branch ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.tree-branch li {
+    margin-bottom: 0.5rem;
+}
+
+.tree-root::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 40px;
+    background: #b08d57;
+    margin: 1rem auto 0;
+}
     line-height: 1.8;
 }
