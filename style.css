@@ -794,3 +794,30 @@ summary {
     border-radius: 10px;
     background: #faf7f0;
 }
+
+
+
+    
+.doctrine-page .doctrine-hero {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.doctrine-page .doctrine-intro {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.doctrine-page .doctrine-body {
+    text-align: left;
+    line-height: 1.8;
+}
+
+
+.doctrine-page .doctrine-hero h1,
+.doctrine-page .doctrine-hero h2,
+.doctrine-page .doctrine-hero p {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
