@@ -734,3 +734,18 @@ summary {
     color: #8a7358;
     text-transform: uppercase;
 }
+
+
+
+.hero-intro2 {
+    max-width: 850px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+
+.hero-doctrine {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+}
