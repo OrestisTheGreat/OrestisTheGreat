@@ -813,3 +813,12 @@ summary {
     text-align: left;
     line-height: 1.8;
 }
+
+
+
+.orestisism {
+    display: block;
+    width: min(420px, 100%);
+    height: auto;
+    margin: 0 auto 2rem auto;
+}
