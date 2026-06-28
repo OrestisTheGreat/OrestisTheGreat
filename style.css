@@ -822,3 +822,48 @@ summary {
     height: auto;
     margin: 0 auto 2rem auto;
 }
+
+
+
+
+.media-gallery figure,
+.archive-section figure {
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.media-gallery figure:hover,
+.archive-section figure:hover {
+    transform: translateY(-3px);
+    border-color: rgba(176,141,87,.35);
+    box-shadow: 0 10px 24px rgba(0,0,0,.08);
+    background: rgba(255,255,255,.35);
+}
+
+
+figcaption {
+    margin-top: 1rem;
+}
+
+.document-frame {
+    height: 360px;
+    width: 280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255,255,255,.4);
+    border: 1px solid rgba(176,141,87,.2);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.exhibit-card {
+    background: rgba(255,255,255,.42);
+    border: 1px solid rgba(176,141,87,.2);
+    border-radius: 12px;
+    padding: 1.2rem;
+}
