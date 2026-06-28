@@ -867,3 +867,38 @@ figcaption {
     border-radius: 12px;
     padding: 1.2rem;
 }
+
+
+.exhibit-link {
+    display: block;
+}
+
+.exhibit-link img {
+    cursor: zoom-in;
+}
+
+
+.exhibit-link {
+    position: relative;
+}
+
+.exhibit-link::after {
+    content: "View Exhibit";
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+
+    background: rgba(0,0,0,.65);
+    color: white;
+
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
+
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: .25s;
+}
+
+.exhibit-link:hover::after {
+    opacity: 1;
+}
