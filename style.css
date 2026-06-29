@@ -902,3 +902,16 @@ figcaption {
 .exhibit-link:hover::after {
     opacity: 1;
 }
+
+
+
+
+.archive-photo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
