@@ -918,3 +918,23 @@ figcaption {
 
 
 
+
+.clickable-image {
+    display: inline-block;
+    position: relative;
+    cursor: zoom-in;
+}
+
+.clickable-image img {
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease,
+                border-color 0.25s ease;
+    border: 2px solid transparent;
+}
+
+.clickable-image:hover img {
+    transform: scale(1.015);
+    border-color: rgba(176,141,87,0.45);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.18);
+}
+
