@@ -11,7 +11,18 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
 </head>
+
+<script>
+function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+}
+</script>
+    
+
+    
 <body>
+
 
 <nav class="page-nav main-nav">
 
@@ -21,17 +32,27 @@
              class="butterfly-nav">
     </a>
 
-    <a href="index.html">Home</a>
-    <a href="orestis.html">Orestis II</a>
-    <a href="campaigns.html">Campaigns</a>
-    <a href="orestisism.html">Orestisism</a>
-    <a href="media.html">Media Archives</a>
-    <a href="documentation.html">Royal Documentation</a>
-    <a href="legitimacy.html">Legitimacy</a>
-    <a href="restoration.html">Restoration Program</a>
+    <!-- Mobile button -->
+    <button class="menu-toggle" onclick="toggleMenu()">
+        ☰ Menu
+    </button>
+
+    <!-- Nav links -->
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="orestis.html">Orestis II</a>
+        <a href="campaigns.html">Campaigns</a>
+        <a href="orestisism.html">Orestisism</a>
+        <a href="media.html">Media Archives</a>
+        <a href="documentation.html">Royal Documentation</a>
+        <a href="legitimacy.html">Legitimacy</a>
+        <a href="restoration.html">Restoration Program</a>
+    </div>
 
 </nav>
 
+
+    
 <main class="archive-page">
 
 <section class="hero-profile">
