@@ -1098,3 +1098,93 @@ html {
 
 
 
+
+
+
+.restoration-page .hero-profile {
+    margin-bottom: 2rem;
+}
+
+.restoration-page .insignia-large {
+    width: 260px;
+    margin-bottom: 1rem;
+}
+
+.restoration-page .hero-profile h1 {
+    font-size: clamp(2.5rem, 5vw, 4.2rem);
+    margin-bottom: 0.8rem;
+}
+
+.restoration-page .hero-profile h2 {
+    margin-bottom: 1.2rem;
+}
+
+
+.restoration-page .hero-profile {
+    background: rgba(255,255,255,0.38);
+    border: 1px solid rgba(176,141,87,.25);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    backdrop-filter: blur(6px);
+}
+
+
+
+.restoration-page .policy-dashboard {
+    margin: 2rem auto 4rem auto;
+    max-width: 1000px;
+}
+
+.restoration-page .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.restoration-page .dash-item {
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(176,141,87,.35);
+    background: rgba(255,255,255,0.72);
+    color: var(--ink);
+    text-decoration: none;
+    font-family: "Cinzel", serif;
+    transition: all .25s ease;
+}
+
+.restoration-page .dash-item:hover {
+    transform: translateY(-4px);
+    background: var(--gold-dark);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12);
+}
+
+
+.restoration-page .side-nav {
+    width: 180px;
+    padding: 18px;
+    background: rgba(255,255,255,0.82);
+    border: 1px solid rgba(176,141,87,.2);
+    border-radius: 14px;
+}
+
+.restoration-page .side-nav h3 {
+    font-family: "Cinzel", serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--gold-dark);
+}
+
+.restoration-page .side-nav a {
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.85;
+    margin-bottom: 4px;
+}
+
+.restoration-page .archive-page {
+    max-width: 1100px;
+}
+
+
+
