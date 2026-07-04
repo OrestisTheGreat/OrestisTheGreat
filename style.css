@@ -1188,3 +1188,21 @@ html {
 
 
 
+
+.executive-summary {
+    background: rgba(255,255,255,0.35);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(176,141,87,.25);
+}
+
+.summary-block {
+    margin-top: 2rem;
+}
+
+.summary-block h4 {
+    color: var(--gold-dark);
+    margin-bottom: 0.8rem;
+}
+
+
