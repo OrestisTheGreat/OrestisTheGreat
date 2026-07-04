@@ -1241,3 +1241,13 @@ html {
     margin-top: -1rem;
     margin-bottom: 2rem;
 }
+
+
+
+.summary-image {
+    width: 280px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: zoom-in;
+}
