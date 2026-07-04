@@ -1246,8 +1246,11 @@ html {
 
 .summary-image {
     width: 420px !important;
+    max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
-    cursor: zoom-in;
+
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.14);
 }
