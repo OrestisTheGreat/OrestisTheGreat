@@ -6,9 +6,11 @@
     --gold: #b08d57;
     --gold-dark: #8d6c3f;
 
+    --archive: #4b5f7a;
+    --archive-dark: #35465d;
+
     --max-width: 1100px;
 }
-
 
 
 * {
@@ -124,6 +126,53 @@ body {
 .card-button:hover {
     background: var(--gold-dark);
 }
+
+
+.card-policy {
+    border-top: 5px solid var(--gold);
+}
+
+/* Archive / historical pages */
+
+.card-archive {
+    border-top: 5px solid var(--archive);
+}
+
+.card-policy .card-button {
+    background: var(--gold);
+}
+
+.card-policy .card-button:hover {
+    background: var(--gold-dark);
+}
+
+.card-archive .card-button {
+    background: var(--archive);
+}
+
+.card-archive .card-button:hover {
+    background: var(--archive-dark);
+}
+
+.card-policy h3 {
+    color: var(--gold-dark);
+}
+
+.card-archive h3 {
+    color: var(--archive-dark);
+}
+
+.card-bridge {
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        var(--gold),
+        var(--archive)
+    ) 1;
+}
+
+
+
 
 .quote-section { 
     max-width: 900px; 
