@@ -1358,3 +1358,13 @@ html {
 .home-section .cards {
     margin: 0;
 }
+
+
+.archive-hirohito {
+    width: 230px;
+    display: block;
+    margin: 2rem auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 22px rgba(0,0,0,.14);
+    filter: grayscale(100%);
+}
