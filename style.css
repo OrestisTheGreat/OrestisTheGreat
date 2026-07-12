@@ -1406,3 +1406,50 @@ html {
     }
 
 }
+
+
+
+
+
+.campaign-intro{
+    display:flex;
+    align-items:flex-start;
+    gap:2rem;
+    margin:2rem 0;
+}
+
+.campaign-text{
+    flex:1;
+}
+
+.campaign-photo{
+    flex:0 0 320px;
+    margin:0;
+    text-align:center;
+}
+
+.campaign-photo img{
+    width:100%;
+    border-radius:8px;
+    display:block;
+}
+
+.campaign-photo figcaption{
+    margin-top:.5rem;
+    font-size:.9rem;
+    font-style:italic;
+    opacity:.8;
+}
+
+@media (max-width:900px){
+
+    .campaign-intro{
+        display:block;
+    }
+
+    .campaign-photo{
+        max-width:500px;
+        margin:2rem auto 0;
+    }
+
+}
